@@ -1,0 +1,27 @@
+.btn {
+    padding: 10px 10px 10px 20px;
+    border: 1px solid $primary_color;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+
+    &.btn-primary {
+        background-color: $secondary_color;
+        border: 1px solid $secondary_color;
+        border-radius: 50px;
+        color: $white_color;
+        i {
+            color: $secondary_color;
+            background-color: $white_color;
+            border: 1px solid $white_color;
+            border-radius: 50px;
+            padding: 5px;
+        }
+        &:hover {
+            background-color: $primary_color;
+        }
+    }
+    
+
+}

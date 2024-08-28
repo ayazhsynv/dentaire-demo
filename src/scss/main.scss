@@ -1,0 +1,19 @@
+@import "base/reset";
+@import "base/base";
+@import "utils/variables";
+@import "base/typography";
+@import "utils/mixins";
+@import "utils/extends";
+@import "components/buttons";
+@import "components/images";
+
+@import"layout/header";
+@import "layout/navbar";
+@import "layout/footer";
+
+@import "pages/home/hero";
+@import "pages/home/appointment";
+@import "pages/home/about";
+// @import "pages/services";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');

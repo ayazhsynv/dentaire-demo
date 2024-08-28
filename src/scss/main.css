@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: #0F384C;
+}
+
+h1 {
+  font-size: 54px;
+  color: #0F384C;
+  font-weight: 700;
+  line-height: 1.2;
+}
+h1 span {
+  color: #1D84B5;
+}
+
+h2 {
+  font-size: 44px;
+  color: #0F384C;
+  font-weight: 700;
+  line-height: 1.2;
+}
+h2 span {
+  color: #1D84B5;
+}
+
+h3 {
+  font-size: 14px;
+  color: #1D84B5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+p {
+  font-size: 18px;
+  color: #527282;
+  line-height: 1.8;
+}
+
+.btn {
+  padding: 10px 10px 10px 20px;
+  border: 1px solid #0F384C;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+.btn.btn-primary {
+  background-color: #1D84B5;
+  border: 1px solid #1D84B5;
+  border-radius: 50px;
+  color: #FFFFFF;
+}
+.btn.btn-primary i {
+  color: #1D84B5;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+  padding: 5px;
+}
+.btn.btn-primary:hover {
+  background-color: #0F384C;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header {
+  background-color: #EFF8FF;
+  border-bottom: 1px solid #D8E5ED;
+}
+
+nav {
+  background-color: #EFF8FF;
+  padding: 30px 0;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+nav ul li {
+  padding: 14px 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #0F384C;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+nav ul li a:hover {
+  color: #1D84B5;
+}
+
+.hero {
+  background-color: #EFF8FF;
+}
+.hero__content {
+  padding-right: 100px;
+}
+.hero__content h1 {
+  margin-bottom: 20px;
+}
+.hero__content p {
+  margin-bottom: 30px;
+}
+.hero__content .btn {
+  margin-bottom: 20px;
+}
+.hero__content hr {
+  color: #0F384C;
+}
+.hero__content ul {
+  margin-top: 40px;
+  display: flex;
+}
+.hero__content ul li {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #0F384C;
+}
+.hero__content ul li span, .hero__content ul li i {
+  color: #FFA800;
+}
+.hero__img {
+  width: 510px;
+  height: 780px;
+  position: relative;
+}
+.hero__img__info {
+  position: absolute;
+  display: flex;
+  bottom: 10%;
+  left: 10%;
+  width: 225px;
+  height: 100px;
+  border: 1px solid #FFFFFF;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+.hero__img__info img {
+  max-width: 78px;
+  max-height: 78px;
+  border-radius: 14px;
+}
+.hero__img__info span {
+  margin-left: 10px;
+  font-size: 18px;
+  color: #0F384C;
+  font-weight: 700;
+}
+.hero__img__info p {
+  font-size: 16px;
+  color: #0F384C;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.appointment {
+  background-color: #0F384C;
+  padding: 50px 0;
+}
+.appointment__call, .appointment__hours {
+  display: flex;
+  color: #FFFFFF;
+  height: 65px;
+  padding: 0 15px 0 0;
+  margin: 0 15px 0 0;
+}
+.appointment__call div, .appointment__hours div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.appointment__call i, .appointment__hours i {
+  font-size: 44px;
+  margin-right: 20px;
+  font-weight: 100;
+}
+.appointment__call span, .appointment__hours span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.appointment__call p, .appointment__hours p {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.appointment__btn {
+  display: flex;
+}
+
+.about {
+  padding: 100px 0;
+}
+.about__img {
+  margin-right: 50px;
+  padding-bottom: 200px;
+}
+.about__img__1 {
+  position: relative;
+}
+.about__img__1 img {
+  width: 410px;
+  height: 390px;
+  border-radius: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about__img__1 .about__img__2 {
+  position: absolute;
+  bottom: -185px;
+  right: 0;
+}
+.about__img__1 .about__img__2 img {
+  width: 380px;
+  height: 270px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 7px solid #FFFFFF;
+  border-radius: 40px;
+}
+.about__content h3 {
+  margin-bottom: 10px;
+}
+.about__content h2 {
+  margin-bottom: 20px;
+}
+.about__content p {
+  margin-bottom: 40px;
+}
+.about__content ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+.about__content ul li {
+  width: 300px;
+  padding-right: 30px;
+  font-size: 18px;
+  color: #0F384C;
+  font-weight: 600;
+}
+.about__content ul li i {
+  color: #FFFFFF;
+  background-color: #1D84B5;
+  border: 1px solid #1D84B5;
+  border-radius: 10px;
+}/*# sourceMappingURL=main.css.map */
