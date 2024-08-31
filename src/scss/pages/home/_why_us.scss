@@ -1,0 +1,17 @@
+.why_us {
+    padding: 100px 0;
+    background-color: $tertiary_color;
+    &__title {
+        text-align: center;
+        h3 {
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 60px;
+        }
+    }
+    
+}

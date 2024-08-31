@@ -87,6 +87,12 @@ h3 {
   font-weight: 500;
 }
 
+h4 {
+  font-size: 18px;
+  color: #0F384C;
+  font-weight: 700;
+}
+
 p {
   font-size: 18px;
   color: #527282;
@@ -308,4 +314,157 @@ nav ul li a:hover {
   background-color: #1D84B5;
   border: 1px solid #1D84B5;
   border-radius: 10px;
+}
+
+.our_services {
+  background-color: #EFF8FF;
+}
+.our_services__content {
+  padding: 100px 0;
+}
+.our_services__content__text {
+  text-align: center;
+}
+.our_services__content__text h3 {
+  margin-bottom: 10px;
+}
+.our_services__content__text h2 {
+  margin-bottom: 20px;
+}
+.our_services__content__text p {
+  margin-bottom: 60px;
+}
+.our_services__content__cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.our_services__content__cards div {
+  padding: 30px;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+  transition: 0.3s ease-in-out;
+}
+.our_services__content__cards div .icon {
+  font-size: 48px;
+  color: #1D84B5;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.our_services__content__cards div h4 {
+  margin: 20px 0;
+}
+.our_services__content__cards div p {
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.our_services__content__cards div .btn {
+  background-color: #FFFFFF;
+  color: #1D84B5;
+  border: none;
+  padding: 0;
+}
+.our_services__content__cards div:hover {
+  background-color: #0F384C;
+}
+.our_services__content__cards div:hover .icon, .our_services__content__cards div:hover h4, .our_services__content__cards div:hover p, .our_services__content__cards div:hover .btn {
+  color: #FFFFFF;
+}
+.our_services__content__cards div:hover .btn {
+  background-color: #0F384C;
+}
+
+.intro {
+  max-width: 1550px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 0 50px;
+}
+.intro__video {
+  background-image: url("/src/assets/intro.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #0F384C;
+  border: none;
+  border-radius: 40px;
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+.intro__video__bg {
+  position: absolute;
+  width: 100%;
+  height: 550px;
+  border-radius: 40px;
+  background-color: #0F384C;
+  opacity: 0.5;
+  content: "";
+  z-index: 1;
+}
+.intro__video__text {
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.intro__video__text h3, .intro__video__text h2 {
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.intro__video__text .btn {
+  margin-top: 20px;
+  color: #1D84B5;
+  background-color: #FFFFFF;
+}
+.intro__video__text .btn i {
+  background-color: #1D84B5;
+  color: #FFFFFF;
+  transition: all 0.3s ease-in-out;
+}
+.intro__video__text .btn:hover {
+  color: #FFFFFF;
+  background-color: #0F384C;
+}
+.intro__video__text .btn:hover i {
+  background-color: #FFFFFF;
+  color: #0F384C;
+}
+
+.counter {
+  padding: 70px 0;
+}
+.counter__card h2 {
+  margin-bottom: 10px;
+}
+.counter__card h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.counter__card p {
+  margin: 20px 0;
+}
+
+.why_us {
+  padding: 100px 0;
+  background-color: #EFF8FF;
+}
+.why_us__title {
+  text-align: center;
+}
+.why_us__title h3 {
+  margin-bottom: 20px;
+}
+.why_us__title h2 {
+  margin-bottom: 20px;
+}
+.why_us__title p {
+  margin-bottom: 60px;
 }/*# sourceMappingURL=main.css.map */
